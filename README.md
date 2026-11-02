@@ -75,18 +75,6 @@ ECD 在上述六种设置中均取得所比较方法中最高的 macro-F1，但�
 
 **指标说明：** 对每位患者，HR 先计算错误预测疾病数占该患者全部预测疾病数的比例，再对患者取平均。因此，这里的 HR 描述诊断预测错误比例，不等同于对全部推理文本进行逐句事实核验后的幻觉比例。
 
-### 消融实验
-
-在私有数据集上，以 GLM4-9B-Chat 为目标模型：
-
-| 设置 | macro-F1 ↑ | HR ↓ |
-| --- | ---: | ---: |
-| 原始模型 | 37.40 | 67.91 |
-| 完整 ECD | **42.19** | **63.09** |
-| 去除证据链，仅保留原始记录与证据要素 | 40.28 | 63.96 |
-| 使用未经 GRPO 优化的证据链标注模型 | 38.52 | 66.67 |
-
-结果支持显式证据链和 GRPO 优化对下游诊断表现的贡献。
 
 ## 数据说明
 
@@ -104,10 +92,3 @@ ECD 在上述六种设置中均取得所比较方法中最高的 macro-F1，但�
 
 **英文标题：** Evidence-Chain Diagnosis: Mitigating Hallucinations for Faithful Medical Diagnosis in Large Language Models
 
-**中文释义：** 证据链诊断：缓解大语言模型幻觉，实现忠实的医学诊断
-
-**作者：** Mengchen Zhao, Yunan Zhang, Yang Yang, Zeyu Chen, Yuhui Guo, Xiangping Wu, Shuoran Jiang, Yang Fan, Fen Yang, Qingcai Chen。
-
-**研究机构：** 哈尔滨工业大学；中山大学附属第八医院。
-
-本介绍依据当前论文稿件整理。正式论文链接、发表信息及引用格式待确定后补充。
