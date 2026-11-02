@@ -42,5 +42,5 @@ ECD 在上述六种设置中均取得所比较方法中最高的 macro-F1。
 
 ## 论文信息
 
-**英文标题：** Evidence-Chain Diagnosis: Mitigating Hallucinations for Faithful Medical Diagnosis in Large Language Models
+**标题：** Evidence-Chain Diagnosis: Mitigating Hallucinations for Faithful Medical Diagnosis in Large Language Models
 
