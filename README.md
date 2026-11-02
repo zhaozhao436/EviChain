@@ -4,8 +4,6 @@
 
 本项目介绍论文 **Evidence-Chain Diagnosis: Mitigating Hallucinations for Faithful Medical Diagnosis in Large Language Models** 提出的 **ECD（Evidence-Chain Diagnosis，证据链诊断）** 框架。
 
-> 当前仓库仅提供中文研究介绍，不包含代码、模型权重或数据集。
-
 ## 研究背景
 
 大语言模型在辅助医学诊断中展现出潜力，但仍可能将一种疾病误判为另一种疾病，或生成缺乏患者记录支持的诊断。尤其在多病共存的场景中，即使模型具备相关医学知识，证据提取不完整、推理链条断裂以及证据与诊断之间的关联不足，仍可能导致错误结论。
