@@ -1,4 +1,4 @@
-# EviChain：基于证据链的大语言模型医学诊断
+# Evidence-Chain Diagnosis: Mitigating Hallucinations for Faithful Medical Diagnosis in Large Language Models 
 
 **通过显式、可追溯的医学证据链，缓解大语言模型的诊断幻觉。**
 
